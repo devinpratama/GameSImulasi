@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>game</name>
+    <events>
+        <variable constant="0" name="sound2" sid="128283685010371" static="0" type="text">&quot;on&quot;</variable>
+        <event-block sid="607454405043505">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="126433101849141" type="Mouse2">
+                    <param id="0" name="Object">Sprite5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="480262335030840" type="Sprite5">
+                    <param id="0" name="Width">160</param>
+                    <param id="1" name="Height">422</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="689989311429604">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="369451323891219" type="Mouse2">
+                    <param id="0" name="Object">Sprite5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="485519095112510" type="Sprite5">
+                    <param id="0" name="Width">154</param>
+                    <param id="1" name="Height">416</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="405892946386187">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="947242364563068" type="Mouse2">
+                    <param id="0" name="Object">Sprite4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="195114793962057" type="Sprite4">
+                    <param id="0" name="Width">152</param>
+                    <param id="1" name="Height">435</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="448253560613126">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="836050505075254" type="Mouse2">
+                    <param id="0" name="Object">Sprite4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="384778693588703" type="Sprite4">
+                    <param id="0" name="Width">142</param>
+                    <param id="1" name="Height">425</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="492587859292636">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="641074694938629" type="Mouse2">
+                    <param id="0" name="Object">door</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="487727251650586" type="door">
+                    <param id="0" name="Width">86.192</param>
+                    <param id="1" name="Height">175.44</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="904753755803341">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="628796442277714" type="Mouse2">
+                    <param id="0" name="Object">door</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="121964506841361" type="door">
+                    <param id="0" name="Width">76.192</param>
+                    <param id="1" name="Height">165.44</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="308225182986300">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="452200944903302" type="Mouse2">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">door</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="618272982855899" type="robot3" />
+                <action id="-9" name="Destroy" sid="769910584008767" type="robot2" />
+                <action id="-9" name="Destroy" sid="499569300420577" type="Sprite5" />
+                <action id="-9" name="Destroy" sid="375250112061066" type="Sprite4" />
+                <action behavior="Pathfinding" id="0" name="Find path" sid="193562151352653" type="robot4">
+                    <param id="0" name="X">722</param>
+                    <param id="1" name="Y">281</param>
+                </action>
+                <action id="-41" name="Wait for signal" sid="599405972852182" type="System">
+                    <param id="0" name="Tag">&quot;robot&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="122482005664703">
+            <conditions>
+                <condition behavior="Pathfinding" id="0" name="On path found" sid="394594490178945" type="robot4" />
+            </conditions>
+            <actions>
+                <action behavior="Pathfinding" id="1" name="Move along path" sid="468544826301675" type="robot4" />
+                <action id="0" name="Play" sid="960414866100914" type="Audio">
+                    <param id="0" name="Audio file">robot</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="922089518157052" type="System">
+                    <param id="0" name="Seconds">1.00</param>
+                </action>
+                <action id="-7" name="Set size" sid="535193317473018" type="robot4">
+                    <param id="0" name="Width">130</param>
+                    <param id="1" name="Height">206</param>
+                </action>
+                <action id="-16" name="Wait" sid="962156393297312" type="System">
+                    <param id="0" name="Seconds">0.30</param>
+                </action>
+                <action id="-7" name="Set size" sid="737411302817680" type="robot4">
+                    <param id="0" name="Width">120</param>
+                    <param id="1" name="Height">196</param>
+                </action>
+                <action id="-16" name="Wait" sid="458012950036681" type="System">
+                    <param id="0" name="Seconds">0.30</param>
+                </action>
+                <action id="-7" name="Set size" sid="214894867570892" type="robot4">
+                    <param id="0" name="Width">100</param>
+                    <param id="1" name="Height">176</param>
+                </action>
+                <action id="-16" name="Wait" sid="317392190641104" type="System">
+                    <param id="0" name="Seconds">0.30</param>
+                </action>
+                <action id="-7" name="Set size" sid="196591531204556" type="robot4">
+                    <param id="0" name="Width">80</param>
+                    <param id="1" name="Height">156</param>
+                </action>
+                <action id="-16" name="Wait" sid="729054238751032" type="System">
+                    <param id="0" name="Seconds">0.30</param>
+                </action>
+                <action id="-7" name="Set size" sid="861630390432355" type="robot4">
+                    <param id="0" name="Width">50</param>
+                    <param id="1" name="Height">106</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="305709973796270">
+            <conditions>
+                <condition behavior="Pathfinding" id="5" name="On arrived" sid="890488103281466" type="robot4" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="261920078534069" type="door">
+                    <param id="0" name="X">722</param>
+                    <param id="1" name="Y">281</param>
+                </action>
+                <action id="-15" name="Set visible" sid="667929072360376" type="TeksQuis">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="547279356888280" type="System">
+                    <param id="0" name="Seconds">3.0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="644546268735660" type="TeksQuis" />
+                <action id="-42" name="Signal" sid="593063613891626" type="System">
+                    <param id="0" name="Tag">&quot;robot1&quot;</param>
+                </action>
+                <action id="33" name="Stop all" sid="626037054565942" type="Audio" />
+                <action id="0" name="Play" sid="348555913663660" type="Audio">
+                    <param id="0" name="Audio file">bakcsound2</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="823548796991994" type="System">
+                    <param id="0" name="Layout">Quis</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="603786240996233">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="711066105791351" type="Mouse2">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Sprite5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="910210262814946" type="robot3" />
+                <action id="-9" name="Destroy" sid="956701925999176" type="robot4" />
+                <action id="-9" name="Destroy" sid="641242192043034" type="Sprite4" />
+                <action id="-9" name="Destroy" sid="942181914021604" type="door" />
+                <action behavior="Pathfinding" id="0" name="Find path" sid="676706210381568" type="robot2">
+                    <param id="0" name="X">297.296</param>
+                    <param id="1" name="Y">421</param>
+                </action>
+                <action id="-41" name="Wait for signal" sid="643901708462300" type="System">
+                    <param id="0" name="Tag">&quot;robot1&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="608496307503720">
+            <conditions>
+                <condition behavior="Pathfinding" id="0" name="On path found" sid="142836295196389" type="robot2" />
+            </conditions>
+            <actions>
+                <action behavior="Pathfinding" id="1" name="Move along path" sid="507818171102784" type="robot2" />
+                <action id="-16" name="Wait" sid="552363631518366" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="0" name="Play" sid="154735777356776" type="Audio">
+                    <param id="0" name="Audio file">robot</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="362342439537607">
+            <conditions>
+                <condition behavior="Pathfinding" id="5" name="On arrived" sid="786624495653395" type="robot2" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="641582178744996" type="Sprite5">
+                    <param id="0" name="X">297.296</param>
+                    <param id="1" name="Y">421</param>
+                </action>
+                <action id="-15" name="Set visible" sid="952299460562058" type="popupLab">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="352310425242161" type="System">
+                    <param id="0" name="Seconds">3.0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="560442095333732" type="popupLab" />
+                <action id="-42" name="Signal" sid="864131491298874" type="System">
+                    <param id="0" name="Tag">&quot;robot&quot;</param>
+                </action>
+                <action id="33" name="Stop all" sid="428507468641252" type="Audio" />
+                <action id="0" name="Play" sid="710261310998470" type="Audio">
+                    <param id="0" name="Audio file">bakcsound2</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="262952802858638" type="System">
+                    <param id="0" name="Layout">Rakit pc</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="438930306014463">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="887916657074973" type="Mouse2">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Sprite4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="895128916816933" type="robot2" />
+                <action id="-9" name="Destroy" sid="656356787037646" type="robot4" />
+                <action id="-9" name="Destroy" sid="340447666773341" type="Sprite5" />
+                <action id="-9" name="Destroy" sid="407920774668272" type="door" />
+                <action behavior="Pathfinding" id="0" name="Find path" sid="596206663896417" type="robot3">
+                    <param id="0" name="X">1109</param>
+                    <param id="1" name="Y">435</param>
+                </action>
+                <action id="-41" name="Wait for signal" sid="643467131098856" type="System">
+                    <param id="0" name="Tag">&quot;robot2&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="911774018332687">
+            <conditions>
+                <condition behavior="Pathfinding" id="0" name="On path found" sid="297081735501442" type="robot3" />
+            </conditions>
+            <actions>
+                <action behavior="Pathfinding" id="1" name="Move along path" sid="826648669030346" type="robot3" />
+                <action id="0" name="Play" sid="280344951405163" type="Audio">
+                    <param id="0" name="Audio file">robot</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="355767179393111">
+            <conditions>
+                <condition behavior="Pathfinding" id="5" name="On arrived" sid="231694613429331" type="robot3" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="581678977955471" type="Sprite4">
+                    <param id="0" name="X">1109</param>
+                    <param id="1" name="Y">435</param>
+                </action>
+                <action id="-15" name="Set visible" sid="839686019437733" type="popupLab2">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="855567652736038" type="System">
+                    <param id="0" name="Seconds">5.0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="923053346617992" type="popupLab" />
+                <action id="-42" name="Signal" sid="655023609875976" type="System">
+                    <param id="0" name="Tag">&quot;robot2&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="401813963573804" type="System">
+                    <param id="0" name="Layout">Jaringan</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

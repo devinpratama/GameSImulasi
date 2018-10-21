@@ -1,0 +1,831 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Jaringan</name>
+    <events>
+        <event-block sid="427515230837415">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="165997291126724" type="Mouse2">
+                    <param id="0" name="Object">ButtonBack6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="549052463660662" type="ButtonBack6">
+                    <param id="0" name="Width">173</param>
+                    <param id="1" name="Height">167</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="625411306098414">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="339716120659914" type="Mouse2">
+                    <param id="0" name="Object">ButtonBack6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="835861499460969" type="ButtonBack6">
+                    <param id="0" name="Width">163</param>
+                    <param id="1" name="Height">157</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="587642411755408">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="157924849007556" type="Mouse2">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">ButtonBack6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="875901695412239" type="System">
+                    <param id="0" name="Layout">Game</param>
+                </action>
+                <action id="0" name="Play" sid="713813462179176" type="Audio">
+                    <param id="0" name="Audio file">button on</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <comment>Event Laptop</comment>
+        <event-block sid="829499473298651">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="265781914713104" type="Mouse2">
+                    <param id="0" name="Object">laptop</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="290646288052051" type="laptop">
+                    <param id="0" name="Width">228</param>
+                    <param id="1" name="Height">173</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="500846087505404">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="676949280496167" type="Mouse2">
+                    <param id="0" name="Object">laptop</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="469203149615099" type="laptop">
+                    <param id="0" name="Width">218</param>
+                    <param id="1" name="Height">163</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="969355268827302">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="130841291542066" type="Mouse2">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">laptop</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <comment>Event Krimping</comment>
+        <event-block sid="811581912988791">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="876158658503893" type="Mouse2">
+                    <param id="0" name="Object">tangrj</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="751031246598965" type="tangrj">
+                    <param id="0" name="Width">103</param>
+                    <param id="1" name="Height">49</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="499959583747325">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="390087945479510" type="Mouse2">
+                    <param id="0" name="Object">tangrj</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="269315231796043" type="tangrj">
+                    <param id="0" name="Width">93</param>
+                    <param id="1" name="Height">39</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="189003482452658">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="406706218474940" type="Mouse2">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">tangrj</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="120577568080793" type="System">
+                    <param id="0" name="Layer">&quot;popup&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+                <action id="-3" name="Set position" sid="525908280322070" type="ButtonBack6">
+                    <param id="0" name="X">-112</param>
+                    <param id="1" name="Y">967</param>
+                </action>
+                <action id="-3" name="Set position" sid="499720366530170" type="SignalRj">
+                    <param id="0" name="X">405.353</param>
+                    <param id="1" name="Y">195.588</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="930894781672244">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="178876453067465" type="kabel">
+                    <param id="0" name="Object">SignalRj</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="786212733445854" type="rj">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="839022394947756" type="kabel" />
+                <action id="-3" name="Set position" sid="134159452739763" type="SignalRj2">
+                    <param id="0" name="X">420.554</param>
+                    <param id="1" name="Y">195.964</param>
+                </action>
+                <action id="-9" name="Destroy" sid="781440365189437" type="SignalRj" />
+                <action id="0" name="Play" sid="218492860466796" type="Audio">
+                    <param id="0" name="Audio file">blop</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="875148612492666">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="905133538603797" type="kabel2">
+                    <param id="0" name="Object">SignalRj2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="447959144209285" type="rj">
+                    <param id="0" name="Frame number">2</param>
+                </action>
+                <action id="-9" name="Destroy" sid="440949642547842" type="kabel2" />
+                <action id="-3" name="Set position" sid="210171226312303" type="SignalRj3">
+                    <param id="0" name="X">435.554</param>
+                    <param id="1" name="Y">196.036</param>
+                </action>
+                <action id="-9" name="Destroy" sid="820230401380775" type="SignalRj2" />
+                <action id="0" name="Play" sid="771858521951692" type="Audio">
+                    <param id="0" name="Audio file">blop</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="268968223492527">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="634113589866176" type="kabel3">
+                    <param id="0" name="Object">SignalRj3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="925425094804572" type="rj">
+                    <param id="0" name="Frame number">3</param>
+                </action>
+                <action id="-9" name="Destroy" sid="908617029097654" type="kabel3" />
+                <action id="-3" name="Set position" sid="815874497760101" type="SignalRj4">
+                    <param id="0" name="X">450.469</param>
+                    <param id="1" name="Y">195.603</param>
+                </action>
+                <action id="-9" name="Destroy" sid="577386428034400" type="SignalRj3" />
+                <action id="0" name="Play" sid="850102128996789" type="Audio">
+                    <param id="0" name="Audio file">blop</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="839851718055202">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="544697177067877" type="kabel4">
+                    <param id="0" name="Object">SignalRj4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="885680353203025" type="rj">
+                    <param id="0" name="Frame number">4</param>
+                </action>
+                <action id="-9" name="Destroy" sid="491932787845392" type="kabel4" />
+                <action id="-3" name="Set position" sid="198496231778924" type="SignalRj5">
+                    <param id="0" name="X">465.895</param>
+                    <param id="1" name="Y">196.085</param>
+                </action>
+                <action id="-9" name="Destroy" sid="393215420854914" type="SignalRj4" />
+                <action id="0" name="Play" sid="654024662099853" type="Audio">
+                    <param id="0" name="Audio file">blop</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="738955842471920">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="620033049073862" type="kabel5">
+                    <param id="0" name="Object">SignalRj5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="579807565163930" type="rj">
+                    <param id="0" name="Frame number">5</param>
+                </action>
+                <action id="-9" name="Destroy" sid="170903473843642" type="kabel5" />
+                <action id="-3" name="Set position" sid="274160388573628" type="SignalRj6">
+                    <param id="0" name="X">480.357</param>
+                    <param id="1" name="Y">196.084</param>
+                </action>
+                <action id="-9" name="Destroy" sid="681397315405341" type="SignalRj5" />
+                <action id="0" name="Play" sid="461685268591553" type="Audio">
+                    <param id="0" name="Audio file">blop</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="384732399346310">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="409138459539395" type="kabel6">
+                    <param id="0" name="Object">SignalRj6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="403255471941381" type="rj">
+                    <param id="0" name="Frame number">6</param>
+                </action>
+                <action id="-9" name="Destroy" sid="957662233189264" type="kabel6" />
+                <action id="-3" name="Set position" sid="971100828411155" type="SignalRj7">
+                    <param id="0" name="X">495.301</param>
+                    <param id="1" name="Y">196.325</param>
+                </action>
+                <action id="-9" name="Destroy" sid="775468468789856" type="SignalRj6" />
+                <action id="0" name="Play" sid="632521034670232" type="Audio">
+                    <param id="0" name="Audio file">blop</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="187665573136691">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="195885055325441" type="kabel7">
+                    <param id="0" name="Object">SignalRj7</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="731498373753565" type="rj">
+                    <param id="0" name="Frame number">7</param>
+                </action>
+                <action id="-9" name="Destroy" sid="142249317482327" type="kabel7" />
+                <action id="-3" name="Set position" sid="289151416438908" type="SignalRj8">
+                    <param id="0" name="X">510.426</param>
+                    <param id="1" name="Y">195.562</param>
+                </action>
+                <action id="-9" name="Destroy" sid="108824627987046" type="SignalRj7" />
+                <action id="0" name="Play" sid="484909652846477" type="Audio">
+                    <param id="0" name="Audio file">blop</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="288782474152603">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="412813578907348" type="kabel8">
+                    <param id="0" name="Object">SignalRj8</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="832455347301631" type="rj">
+                    <param id="0" name="Frame number">8</param>
+                </action>
+                <action id="-9" name="Destroy" sid="695915238127076" type="kabel8" />
+                <action id="-9" name="Destroy" sid="864703156898681" type="SignalRj8" />
+                <action id="0" name="Play" sid="573902174175883" type="Audio">
+                    <param id="0" name="Audio file">blop</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-3" name="Set position" sid="370351112549462" type="tang2">
+                    <param id="0" name="X">811</param>
+                    <param id="1" name="Y">648</param>
+                </action>
+                <action id="-3" name="Set position" sid="978841755510350" type="Signal6">
+                    <param id="0" name="X">458.5</param>
+                    <param id="1" name="Y">194.5</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="377715208495540">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="203425401549442" type="tang2">
+                    <param id="0" name="Object">Signal6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="413834395720534" type="rj">
+                    <param id="0" name="Frame number">9</param>
+                </action>
+                <action id="-9" name="Destroy" sid="210205188370621" type="tang2" />
+                <action id="-9" name="Destroy" sid="618058058874956" type="Signal6" />
+                <action id="-3" name="Set position" sid="831736716134835" type="kabel9">
+                    <param id="0" name="X">907</param>
+                    <param id="1" name="Y">862</param>
+                </action>
+                <action id="-3" name="Set position" sid="753916929385621" type="kabel10">
+                    <param id="0" name="X">932</param>
+                    <param id="1" name="Y">851</param>
+                </action>
+                <action id="-3" name="Set position" sid="134886627593899" type="kabel11">
+                    <param id="0" name="X">960</param>
+                    <param id="1" name="Y">846</param>
+                </action>
+                <action id="-3" name="Set position" sid="881093271904737" type="kabel12">
+                    <param id="0" name="X">993</param>
+                    <param id="1" name="Y">853</param>
+                </action>
+                <action id="-3" name="Set position" sid="851013777009611" type="kabel13">
+                    <param id="0" name="X">1024</param>
+                    <param id="1" name="Y">795</param>
+                </action>
+                <action id="-3" name="Set position" sid="356805411844284" type="kabel14">
+                    <param id="0" name="X">1061</param>
+                    <param id="1" name="Y">857</param>
+                </action>
+                <action id="-3" name="Set position" sid="390327238661620" type="kabel15">
+                    <param id="0" name="X">878</param>
+                    <param id="1" name="Y">844</param>
+                </action>
+                <action id="-3" name="Set position" sid="240469524395523" type="kabel16">
+                    <param id="0" name="X">850</param>
+                    <param id="1" name="Y">855</param>
+                </action>
+                <action id="-3" name="Set position" sid="232878786396466" type="SignalRj9">
+                    <param id="0" name="X">882.862</param>
+                    <param id="1" name="Y">205.292</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="435845248852878">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="601924864699568" type="kabel16">
+                    <param id="0" name="Object">SignalRj9</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="768678453173163" type="rj3">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="493339235563210" type="kabel16" />
+                <action id="-3" name="Set position" sid="803050810086360" type="SignalRj10">
+                    <param id="0" name="X">897.562</param>
+                    <param id="1" name="Y">204.427</param>
+                </action>
+                <action id="-9" name="Destroy" sid="595856803357697" type="SignalRj9" />
+                <action id="0" name="Play" sid="872504648578195" type="Audio">
+                    <param id="0" name="Audio file">blop</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="581938419170299">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="496938524561723" type="kabel15">
+                    <param id="0" name="Object">SignalRj10</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="164876535297813" type="rj3">
+                    <param id="0" name="Frame number">2</param>
+                </action>
+                <action id="-9" name="Destroy" sid="944498729127190" type="kabel15" />
+                <action id="-3" name="Set position" sid="551219499935108" type="SignalRj11">
+                    <param id="0" name="X">912.74</param>
+                    <param id="1" name="Y">205.277</param>
+                </action>
+                <action id="-9" name="Destroy" sid="375035944489351" type="SignalRj10" />
+                <action id="0" name="Play" sid="913831901175535" type="Audio">
+                    <param id="0" name="Audio file">blop</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="957829388694765">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="250348952424732" type="kabel9">
+                    <param id="0" name="Object">SignalRj11</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="637297624370768" type="rj3">
+                    <param id="0" name="Frame number">3</param>
+                </action>
+                <action id="-9" name="Destroy" sid="878448370522476" type="kabel9" />
+                <action id="-3" name="Set position" sid="813853634911843" type="SignalRj12">
+                    <param id="0" name="X">928.214</param>
+                    <param id="1" name="Y">205.85</param>
+                </action>
+                <action id="-9" name="Destroy" sid="467534917471304" type="SignalRj11" />
+                <action id="0" name="Play" sid="992949913969977" type="Audio">
+                    <param id="0" name="Audio file">blop</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="229018291898776">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="991723448745550" type="kabel12">
+                    <param id="0" name="Object">SignalRj12</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="642653800184382" type="rj3">
+                    <param id="0" name="Frame number">4</param>
+                </action>
+                <action id="-9" name="Destroy" sid="620107136309335" type="kabel12" />
+                <action id="-3" name="Set position" sid="279256529900211" type="SignalRj13">
+                    <param id="0" name="X">941.969</param>
+                    <param id="1" name="Y">205.277</param>
+                </action>
+                <action id="-9" name="Destroy" sid="683274496849804" type="SignalRj12" />
+                <action id="0" name="Play" sid="584407169346571" type="Audio">
+                    <param id="0" name="Audio file">blop</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="426878244243430">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="750827439811464" type="kabel11">
+                    <param id="0" name="Object">SignalRj13</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="651411989839808" type="rj3">
+                    <param id="0" name="Frame number">5</param>
+                </action>
+                <action id="-9" name="Destroy" sid="515368892554223" type="kabel11" />
+                <action id="-3" name="Set position" sid="542593990531850" type="SignalRj14">
+                    <param id="0" name="X">957.442</param>
+                    <param id="1" name="Y">205.85</param>
+                </action>
+                <action id="-9" name="Destroy" sid="707511415392097" type="SignalRj13" />
+                <action id="0" name="Play" sid="818984821783007" type="Audio">
+                    <param id="0" name="Audio file">blop</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="349784106018381">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="511580548475330" type="kabel10">
+                    <param id="0" name="Object">SignalRj14</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="905959241543252" type="rj3">
+                    <param id="0" name="Frame number">6</param>
+                </action>
+                <action id="-9" name="Destroy" sid="584782868589792" type="kabel10" />
+                <action id="-3" name="Set position" sid="461188332561751" type="SignalRj15">
+                    <param id="0" name="X">972.341</param>
+                    <param id="1" name="Y">205.85</param>
+                </action>
+                <action id="-9" name="Destroy" sid="273253142803159" type="SignalRj14" />
+                <action id="0" name="Play" sid="262087725178709" type="Audio">
+                    <param id="0" name="Audio file">blop</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="729793685956396">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="868907121899783" type="kabel13">
+                    <param id="0" name="Object">SignalRj15</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="389486119532149" type="rj3">
+                    <param id="0" name="Frame number">7</param>
+                </action>
+                <action id="-9" name="Destroy" sid="811707343216849" type="kabel13" />
+                <action id="-3" name="Set position" sid="299635178898427" type="SignalRj16">
+                    <param id="0" name="X">987.241</param>
+                    <param id="1" name="Y">204.704</param>
+                </action>
+                <action id="-9" name="Destroy" sid="538051835917243" type="SignalRj15" />
+                <action id="0" name="Play" sid="356956864588870" type="Audio">
+                    <param id="0" name="Audio file">blop</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="325115980401178">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="809048446237129" type="kabel14">
+                    <param id="0" name="Object">SignalRj16</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="420829275682640" type="rj3">
+                    <param id="0" name="Frame number">8</param>
+                </action>
+                <action id="-9" name="Destroy" sid="209766986338889" type="kabel14" />
+                <action id="-9" name="Destroy" sid="541780518585155" type="SignalRj16" />
+                <action id="-3" name="Set position" sid="718497145352910" type="tang3">
+                    <param id="0" name="X">811</param>
+                    <param id="1" name="Y">648</param>
+                </action>
+                <action id="0" name="Play" sid="257688595040510" type="Audio">
+                    <param id="0" name="Audio file">blop</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-3" name="Set position" sid="956783723583753" type="Signal7">
+                    <param id="0" name="X">935</param>
+                    <param id="1" name="Y">203</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="709066073210715">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="370197494833792" type="tang3">
+                    <param id="0" name="Object">Signal7</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="136720564751871" type="rj3">
+                    <param id="0" name="Frame number">9</param>
+                </action>
+                <action id="5" name="Set frame" sid="383955569413697" type="tangrj">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="897456612682531" type="tang3" />
+                <action id="-3" name="Set position" sid="617801016955901" type="ButtonBack6">
+                    <param id="0" name="X">104</param>
+                    <param id="1" name="Y">663</param>
+                </action>
+                <action id="-3" name="Set position" sid="522741576517706" type="ButtonBack2">
+                    <param id="0" name="X">68</param>
+                    <param id="1" name="Y">65</param>
+                </action>
+                <action id="-9" name="Destroy" sid="663416175512653" type="Signal7" />
+                <action id="-16" name="Wait" sid="580517172292166" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-4" name="Set layer visible" sid="608963027908765" type="System">
+                    <param id="0" name="Layer">&quot;popup&quot;</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="501917301559183">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="793010944275208" type="Mouse2">
+                    <param id="0" name="Object">ButtonBack2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="704526436320677" type="ButtonBack2">
+                    <param id="0" name="Width">110</param>
+                    <param id="1" name="Height">110</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="845395994449707">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="142513685184869" type="Mouse2">
+                    <param id="0" name="Object">ButtonBack2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="773420242008465" type="ButtonBack2">
+                    <param id="0" name="Width">100</param>
+                    <param id="1" name="Height">100</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="299643485187338">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="402983886011580" type="Mouse2">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">ButtonBack2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="372721335937952" type="System">
+                    <param id="0" name="Layer">&quot;popup&quot;</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+                <action id="-3" name="Set position" sid="822297971302904" type="ButtonBack6">
+                    <param id="0" name="X">104</param>
+                    <param id="1" name="Y">663</param>
+                </action>
+                <action id="0" name="Play" sid="931498193653433" type="Audio">
+                    <param id="0" name="Audio file">button on</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <comment>Event Hub</comment>
+        <event-block sid="755076061312426">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="261373386650761" type="Mouse2">
+                    <param id="0" name="Object">modem</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="369996018746803" type="modem">
+                    <param id="0" name="Width">251</param>
+                    <param id="1" name="Height">92</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="590339045082760">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="253688266034250" type="Mouse2">
+                    <param id="0" name="Object">modem</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="625606964715348" type="modem">
+                    <param id="0" name="Width">241</param>
+                    <param id="1" name="Height">82</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="996590280333332">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="200072095148044" type="Mouse2">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">modem</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="348223556935220" type="System">
+                    <param id="0" name="Layer">&quot;popup1&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+                <action id="-3" name="Set position" sid="605643486242998" type="ButtonBack6">
+                    <param id="0" name="X">-112</param>
+                    <param id="1" name="Y">967</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="169290719140485">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="185326858886563" type="Mouse2">
+                    <param id="0" name="Object">rj45jadi</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="431929745936506" type="rj45jadi">
+                    <param id="0" name="Width">164</param>
+                    <param id="1" name="Height">740</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="864691877857572">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="593948617751868" type="Mouse2">
+                    <param id="0" name="Object">rj45jadi</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="775909941690730" type="rj45jadi">
+                    <param id="0" name="Width">154</param>
+                    <param id="1" name="Height">730</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="553916655822772">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="774614666078905" type="rj45jadi">
+                    <param id="0" name="Object">colokanRJ</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="604809318109592" type="colokanRJ">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="836300609720181" type="rj45jadi" />
+                <action id="-9" name="Destroy" sid="588459585355609" type="signalColokanRj" />
+                <action id="-16" name="Wait" sid="641310241742809" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-4" name="Set layer visible" sid="238596282260582" type="System">
+                    <param id="0" name="Layer">&quot;popup1&quot;</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="185356398899921" type="modem">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="-3" name="Set position" sid="637590989389354" type="ButtonBack2">
+                    <param id="0" name="X">68</param>
+                    <param id="1" name="Y">65</param>
+                </action>
+                <action id="-3" name="Set position" sid="514369266621792" type="ButtonBack6">
+                    <param id="0" name="X">104</param>
+                    <param id="1" name="Y">663</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="986524668002667">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="300471380816601" type="Mouse2">
+                    <param id="0" name="Object">ButtonBack2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="236739178363465" type="ButtonBack2">
+                    <param id="0" name="Width">110</param>
+                    <param id="1" name="Height">110</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="149883664075444">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="205862894627875" type="Mouse2">
+                    <param id="0" name="Object">ButtonBack2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="856137069191113" type="ButtonBack2">
+                    <param id="0" name="Width">100</param>
+                    <param id="1" name="Height">100</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="882041013491213">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="703385415890451" type="Mouse2">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">ButtonBack2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="812519785415006" type="System">
+                    <param id="0" name="Layer">&quot;popup1&quot;</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+                <action id="-3" name="Set position" sid="275660360632152" type="ButtonBack6">
+                    <param id="0" name="X">104</param>
+                    <param id="1" name="Y">663</param>
+                </action>
+                <action id="0" name="Play" sid="233692805999850" type="Audio">
+                    <param id="0" name="Audio file">button on</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="597039405226180">
+            <conditions>
+                <condition id="-9" name="Is visible" sid="248609993776557" type="Video3" />
+            </conditions>
+            <actions>
+                <action id="6" name="Play" sid="959882613660337" type="Video3" />
+                <action id="2" name="Set looping" sid="597662809702209" type="Video3">
+                    <param id="0" name="Mode">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

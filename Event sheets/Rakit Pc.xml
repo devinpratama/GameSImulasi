@@ -1,0 +1,1156 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Rakit Pc</name>
+    <events>
+        <variable constant="0" name="step3" sid="397736503101717" static="0" type="number">0</variable>
+        <variable constant="0" name="Step" sid="144701827080641" static="0" type="number">0</variable>
+        <variable constant="0" name="Step2" sid="777639612772469" static="0" type="number">2</variable>
+        <variable constant="0" name="Variable1" sid="316822439238176" static="0" type="number">0</variable>
+        <event-block sid="215174494049912">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="704230492740756" type="Mouse2">
+                    <param id="0" name="Object">ButtonBack4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="493209296758514" type="ButtonBack4">
+                    <param id="0" name="Width">173</param>
+                    <param id="1" name="Height">167</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="442519823572765">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="225523640401672" type="Mouse2">
+                    <param id="0" name="Object">ButtonBack4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="616037198468561" type="ButtonBack4">
+                    <param id="0" name="Width">163</param>
+                    <param id="1" name="Height">157</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="662753827100487">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="715675182528212" type="Mouse2">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">ButtonBack4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="883492017444706" type="Audio">
+                    <param id="0" name="Audio file">button on</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="400226896461366" type="System">
+                    <param id="0" name="Seconds">0.40</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="803602482343422" type="System">
+                    <param id="0" name="Layout">Game</param>
+                </action>
+                <action id="-21" name="Reset global variables" sid="239699295162461" type="System" />
+                <action id="33" name="Stop all" sid="985953979343435" type="Audio" />
+                <action id="-9" name="Set value" sid="494320479610819" type="System">
+                    <param id="0" name="Variable">sound</param>
+                    <param id="1" name="Value">&quot;on&quot;</param>
+                </action>
+                <action id="0" name="Play" sid="505696425924067" type="Audio">
+                    <param id="0" name="Audio file">Backsound</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">-10</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <comment>EVENT LAYAR</comment>
+        <event-block bookmark="1" sid="394307704964577">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="563677886725898" type="Mouse2">
+                    <param id="0" name="Object">layarDepan</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="698072320317901" type="layarDepan">
+                    <param id="0" name="Width">291</param>
+                    <param id="1" name="Height">232</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="506817924617696">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="941844325986306" type="Mouse2">
+                    <param id="0" name="Object">layarDepan</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="120254075886993" type="layarDepan">
+                    <param id="0" name="Width">281</param>
+                    <param id="1" name="Height">222</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="991241599826787">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="538487423133246" type="Mouse2">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">layarDepan</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="505729328724694" type="System">
+                    <param id="0" name="Layer">&quot;popup&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+                <action id="-3" name="Set position" sid="269083389756256" type="ButtonBack4">
+                    <param id="0" name="X">-112</param>
+                    <param id="1" name="Y">967</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="693988583054769">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="551797923621415" type="Mouse2">
+                    <param id="0" name="Object">plug3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="219843014111003" type="plug3">
+                    <param id="0" name="Width">180</param>
+                    <param id="1" name="Height">1143</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="919359701089764">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="712208786550794" type="Mouse2">
+                    <param id="0" name="Object">plug3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="435385898913351" type="plug3">
+                    <param id="0" name="Width">170</param>
+                    <param id="1" name="Height">1133</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="443979317976176">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="226303288844173" type="plug3">
+                    <param id="0" name="Object">plug2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="822445475918612" type="Audio">
+                    <param id="0" name="Audio file">Colok</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="5" name="Set frame" sid="619663142707748" type="plug2">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="511252518607696" type="plug3" />
+                <action id="-16" name="Wait" sid="372737739367742" type="System">
+                    <param id="0" name="Seconds">2.0</param>
+                </action>
+                <action id="-4" name="Set layer visible" sid="817350992327634" type="System">
+                    <param id="0" name="Layer">&quot;popup&quot;</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+                <action id="-3" name="Set position" sid="377448678224812" type="ButtonBack2">
+                    <param id="0" name="X">68</param>
+                    <param id="1" name="Y">65</param>
+                </action>
+                <action id="5" name="Set frame" sid="283147598209408" type="plug">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="-10" name="Add to" sid="910913888542971" type="System">
+                    <param id="0" name="Variable">Variable1</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-3" name="Set position" sid="289344062726804" type="ButtonBack4">
+                    <param id="0" name="X">104</param>
+                    <param id="1" name="Y">663</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="731327158906717">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="374488584907150" type="Mouse2">
+                    <param id="0" name="Object">ButtonBack2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="783978477403217" type="ButtonBack2">
+                    <param id="0" name="Width">110</param>
+                    <param id="1" name="Height">110</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="222419483886890">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="833628206147041" type="Mouse2">
+                    <param id="0" name="Object">ButtonBack2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="855080505870625" type="ButtonBack2">
+                    <param id="0" name="Width">100</param>
+                    <param id="1" name="Height">100</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="323022784977098">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="626191637949733" type="Mouse2">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">ButtonBack2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="434792723224987" type="System">
+                    <param id="0" name="Layer">&quot;popup&quot;</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+                <action id="-3" name="Set position" sid="969097792973320" type="ButtonBack4">
+                    <param id="0" name="X">104</param>
+                    <param id="1" name="Y">663</param>
+                </action>
+                <action id="0" name="Play" sid="163081175609048" type="Audio">
+                    <param id="0" name="Audio file">button on</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <comment>EVENT KEYBOARD</comment>
+        <event-block sid="323916899032737">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="724696386407877" type="Mouse2">
+                    <param id="0" name="Object">Keyboard3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="200219310581391" type="Keyboard3">
+                    <param id="0" name="Width">301</param>
+                    <param id="1" name="Height">140</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="942708792047818">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="440430954031413" type="Mouse2">
+                    <param id="0" name="Object">Keyboard3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="966688081793445" type="Keyboard3">
+                    <param id="0" name="Width">291</param>
+                    <param id="1" name="Height">130</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="148797608773122">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="161579150701620" type="Mouse2">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Keyboard3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="869150800245035" type="System">
+                    <param id="0" name="Layer">&quot;popup2&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+                <action id="-3" name="Set position" sid="866290930455436" type="ButtonBack4">
+                    <param id="0" name="X">-112</param>
+                    <param id="1" name="Y">967</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="497969960580937">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="244495014717566" type="Mouse2">
+                    <param id="0" name="Object">keyboardColok</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="544357681372352" type="keyboardColok">
+                    <param id="0" name="Width">227</param>
+                    <param id="1" name="Height">1425</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="686552363363378">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="864718965324981" type="Mouse2">
+                    <param id="0" name="Object">keyboardColok</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="722057691779234" type="keyboardColok">
+                    <param id="0" name="Width">217</param>
+                    <param id="1" name="Height">1415</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="868552562185600">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="794798807384336" type="keyboardColok">
+                    <param id="0" name="Object">keybaordPort</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="430550521505905" type="Audio">
+                    <param id="0" name="Audio file">Colok</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="5" name="Set frame" sid="643185774771011" type="keybaordPort">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="548641516025923" type="keyboardColok" />
+                <action id="-16" name="Wait" sid="761001525856522" type="System">
+                    <param id="0" name="Seconds">2.0</param>
+                </action>
+                <action id="-4" name="Set layer visible" sid="965794994993044" type="System">
+                    <param id="0" name="Layer">&quot;popup2&quot;</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+                <action id="-3" name="Set position" sid="104358903479311" type="ButtonBack2">
+                    <param id="0" name="X">68</param>
+                    <param id="1" name="Y">65</param>
+                </action>
+                <action id="5" name="Set frame" sid="987151672794973" type="Keyboard3">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="-10" name="Add to" sid="643891790994449" type="System">
+                    <param id="0" name="Variable">Variable1</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-3" name="Set position" sid="975750442900889" type="ButtonBack4">
+                    <param id="0" name="X">104</param>
+                    <param id="1" name="Y">663</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="548426043700068">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="903901908591035" type="Mouse2">
+                    <param id="0" name="Object">ButtonBack2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="251128863338094" type="ButtonBack2">
+                    <param id="0" name="Width">110</param>
+                    <param id="1" name="Height">110</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="674118857924001">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="228880035368548" type="Mouse2">
+                    <param id="0" name="Object">ButtonBack2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="989129460363397" type="ButtonBack2">
+                    <param id="0" name="Width">100</param>
+                    <param id="1" name="Height">100</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="542063804968129">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="876169752928748" type="Mouse2">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">ButtonBack2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="111080204114854" type="System">
+                    <param id="0" name="Layer">&quot;popup2&quot;</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+                <action id="-3" name="Set position" sid="105695228587735" type="ButtonBack4">
+                    <param id="0" name="X">104</param>
+                    <param id="1" name="Y">663</param>
+                </action>
+                <action id="0" name="Play" sid="514841797475796" type="Audio">
+                    <param id="0" name="Audio file">button on</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <comment>EVENT MOUSE</comment>
+        <event-block sid="757696169919325">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="168389528788408" type="Mouse2">
+                    <param id="0" name="Object">mouse4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="781339767253157" type="mouse4">
+                    <param id="0" name="Width">110</param>
+                    <param id="1" name="Height">110</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="879042912287742">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="496930397541168" type="Mouse2">
+                    <param id="0" name="Object">mouse4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="823429016352081" type="mouse4">
+                    <param id="0" name="Width">100</param>
+                    <param id="1" name="Height">100</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="683234637710796">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="855310190030967" type="Mouse2">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">mouse4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="508039329436270" type="System">
+                    <param id="0" name="Layer">&quot;popup3&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+                <action id="-3" name="Set position" sid="249463527139588" type="ButtonBack4">
+                    <param id="0" name="X">-112</param>
+                    <param id="1" name="Y">967</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="321188152637795">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="159356074140672" type="Mouse2">
+                    <param id="0" name="Object">keyboardColok2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="428348476111099" type="keyboardColok2">
+                    <param id="0" name="Width">227</param>
+                    <param id="1" name="Height">1425</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="384440426924679">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="308589234814207" type="Mouse2">
+                    <param id="0" name="Object">keyboardColok2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="964698249515297" type="keyboardColok2">
+                    <param id="0" name="Width">217</param>
+                    <param id="1" name="Height">1415</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="532381579218341">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="514708659040408" type="keyboardColok2">
+                    <param id="0" name="Object">keybaordPort2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="659031879903954" type="Audio">
+                    <param id="0" name="Audio file">Colok</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="5" name="Set frame" sid="315665852573462" type="keybaordPort2">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="802496213080344" type="keyboardColok2" />
+                <action id="-16" name="Wait" sid="627491209015275" type="System">
+                    <param id="0" name="Seconds">2.0</param>
+                </action>
+                <action id="-4" name="Set layer visible" sid="146639891318094" type="System">
+                    <param id="0" name="Layer">&quot;popup3&quot;</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+                <action id="-3" name="Set position" sid="977197087110677" type="ButtonBack2">
+                    <param id="0" name="X">68</param>
+                    <param id="1" name="Y">65</param>
+                </action>
+                <action id="5" name="Set frame" sid="925200502031853" type="mouse4">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="-10" name="Add to" sid="345559092396123" type="System">
+                    <param id="0" name="Variable">Variable1</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-3" name="Set position" sid="324047234453391" type="ButtonBack4">
+                    <param id="0" name="X">104</param>
+                    <param id="1" name="Y">663</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="199351980446371">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="564061986874133" type="Mouse2">
+                    <param id="0" name="Object">ButtonBack2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="328056337092485" type="ButtonBack2">
+                    <param id="0" name="Width">110</param>
+                    <param id="1" name="Height">110</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="336171942029544">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="908367169607346" type="Mouse2">
+                    <param id="0" name="Object">ButtonBack2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="277855634536928" type="ButtonBack2">
+                    <param id="0" name="Width">100</param>
+                    <param id="1" name="Height">100</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="122392117429992">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="614942486694163" type="Mouse2">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">ButtonBack2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="793205859894975" type="System">
+                    <param id="0" name="Layer">&quot;popup3&quot;</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+                <action id="-3" name="Set position" sid="432297830083368" type="ButtonBack4">
+                    <param id="0" name="X">104</param>
+                    <param id="1" name="Y">663</param>
+                </action>
+                <action id="0" name="Play" sid="857261074129224" type="Audio">
+                    <param id="0" name="Audio file">button on</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <comment>EVENT CPU</comment>
+        <event-block sid="577844917820965">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="961184037982121" type="Mouse2">
+                    <param id="0" name="Object">Processor</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="812850065250173" type="Processor">
+                    <param id="0" name="Width">130</param>
+                    <param id="1" name="Height">131</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="601739524911073">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="165033297955566" type="Mouse2">
+                    <param id="0" name="Object">Processor</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="549664047638516" type="Processor">
+                    <param id="0" name="Width">120</param>
+                    <param id="1" name="Height">121</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="732785468228701">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="674458156084600" type="Processor">
+                    <param id="0" name="Object">Signal</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="410906973537527" type="Audio">
+                    <param id="0" name="Audio file">blop</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="5" name="Set frame" sid="694354232850233" type="Motherboard">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="953978423426511" type="Processor" />
+                <action id="-9" name="Set value" sid="833239337204351" type="System">
+                    <param id="0" name="Variable">Step</param>
+                    <param id="1" name="Value">-2</param>
+                </action>
+                <action id="-9" name="Destroy" sid="524538097388843" type="nomer" />
+            </actions>
+        </event-block>
+        <event-block sid="718127720585527">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="760015200552440" type="Mouse2">
+                    <param id="0" name="Object">Heatsink</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="270002142656757" type="Heatsink">
+                    <param id="0" name="Width">120</param>
+                    <param id="1" name="Height">120</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="233816604985440">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="288019026375419" type="Mouse2">
+                    <param id="0" name="Object">Heatsink</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="716529302330236" type="Heatsink">
+                    <param id="0" name="Width">110</param>
+                    <param id="1" name="Height">110</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="127284557214665">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="227622973678907" type="Heatsink">
+                    <param id="0" name="Object">Signal</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="511738062056821" type="Audio">
+                    <param id="0" name="Audio file">blop</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="5" name="Set frame" sid="761924344226601" type="Motherboard">
+                    <param id="0" name="Frame number">2</param>
+                </action>
+                <action id="-9" name="Destroy" sid="611240322688993" type="Heatsink" />
+                <action id="-9" name="Destroy" sid="571380059459878" type="Signal" />
+                <action id="-10" name="Add to" sid="916965592584829" type="System">
+                    <param id="0" name="Variable">Step</param>
+                    <param id="1" name="Value">2</param>
+                </action>
+                <action id="-11" name="Subtract from" sid="804095187357121" type="System">
+                    <param id="0" name="Variable">Step2</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="401147515938285" type="nomer2" />
+            </actions>
+            <sub-events>
+                <event-block sid="425041983781521">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="481043881822137" type="System">
+                            <param id="0" name="Variable">Step</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="167441182454570" type="ledakan">
+                            <param id="0" name="X">663</param>
+                            <param id="1" name="Y">337</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="617239311969972" type="ledakan">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="718643391434464" type="System">
+                            <param id="0" name="Seconds">1.0</param>
+                        </action>
+                        <action id="-26" name="Restart layout" sid="280510261696711" type="System" />
+                        <action id="-21" name="Reset global variables" sid="799719839643806" type="System" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="727470365910807">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="808578307716338" type="Mouse2">
+                    <param id="0" name="Object">RAM</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="452035712101756" type="RAM">
+                    <param id="0" name="Width">283</param>
+                    <param id="1" name="Height">76</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="937657247762494">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="479279349273456" type="Mouse2">
+                    <param id="0" name="Object">RAM</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="820653549389426" type="RAM">
+                    <param id="0" name="Width">273</param>
+                    <param id="1" name="Height">66</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="455431686520675">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="667010558782897" type="RAM">
+                    <param id="0" name="Object">signal4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="837107592608997" type="Audio">
+                    <param id="0" name="Audio file">blop</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="5" name="Set frame" sid="531777967545916" type="Motherboard">
+                    <param id="0" name="Frame number">3</param>
+                </action>
+                <action id="-9" name="Destroy" sid="100337594445133" type="RAM" />
+                <action id="-9" name="Destroy" sid="825231403001532" type="signal4" />
+                <action id="-9" name="Destroy" sid="251040670475543" type="nomer3" />
+            </actions>
+            <sub-events>
+                <event-block sid="117461580208229">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="983134323209873" type="System">
+                            <param id="0" name="Variable">Step2</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="949431158679429" type="ledakan">
+                            <param id="0" name="X">663</param>
+                            <param id="1" name="Y">337</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="778886007573630" type="ledakan">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="515867502000240" type="System">
+                            <param id="0" name="Seconds">1.0</param>
+                        </action>
+                        <action id="-26" name="Restart layout" sid="882915167985228" type="System" />
+                        <action id="-21" name="Reset global variables" sid="743886376613433" type="System" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="520591122052348">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="159618673980521" type="Mouse2">
+                    <param id="0" name="Object">lanCard</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="614110614844380" type="lanCard">
+                    <param id="0" name="Width">235</param>
+                    <param id="1" name="Height">158</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="624097742490372">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="756247922280628" type="Mouse2">
+                    <param id="0" name="Object">lanCard</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="824035209396875" type="lanCard">
+                    <param id="0" name="Width">225</param>
+                    <param id="1" name="Height">148</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="399781957567876">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="330213638092122" type="lanCard">
+                    <param id="0" name="Object">signal5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="562988884417552" type="Audio">
+                    <param id="0" name="Audio file">blop</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="5" name="Set frame" sid="749721142622934" type="Motherboard">
+                    <param id="0" name="Frame number">4</param>
+                </action>
+                <action id="-9" name="Destroy" sid="730270275942972" type="lanCard" />
+                <action id="-9" name="Destroy" sid="331603931703698" type="signal5" />
+                <action id="-16" name="Wait" sid="101071881641340" type="System">
+                    <param id="0" name="Seconds">2.0</param>
+                </action>
+                <action id="5" name="Set frame" sid="817747601940934" type="Motherboard">
+                    <param id="0" name="Frame number">5</param>
+                </action>
+                <action id="-3" name="Set position" sid="390786925915464" type="Signal3">
+                    <param id="0" name="X">843</param>
+                    <param id="1" name="Y">250</param>
+                </action>
+                <action id="-3" name="Set position" sid="400768279793627" type="Signal2">
+                    <param id="0" name="X">539</param>
+                    <param id="1" name="Y">166</param>
+                </action>
+                <action id="-9" name="Destroy" sid="475042396043410" type="nomer4" />
+            </actions>
+            <sub-events>
+                <event-block sid="202066059066050">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="371390616224789" type="System">
+                            <param id="0" name="Variable">Step2</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="669002831703304" type="ledakan">
+                            <param id="0" name="X">663</param>
+                            <param id="1" name="Y">337</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="503296498532998" type="ledakan">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-26" name="Restart layout" sid="999761540184583" type="System" />
+                        <action id="-21" name="Reset global variables" sid="196929349256604" type="System" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="707136486304673">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="205881054326200" type="Mouse2">
+                    <param id="0" name="Object">PowerSupply</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="615646817588234" type="PowerSupply">
+                    <param id="0" name="Width">173</param>
+                    <param id="1" name="Height">200</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="879736058866479">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="591146103208559" type="Mouse2">
+                    <param id="0" name="Object">PowerSupply</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="688004655170264" type="PowerSupply">
+                    <param id="0" name="Width">163</param>
+                    <param id="1" name="Height">190</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="485905352640017">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="507166911034581" type="PowerSupply">
+                    <param id="0" name="Object">Signal2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="662862738667300" type="Audio">
+                    <param id="0" name="Audio file">blop</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="5" name="Set frame" sid="594593209193803" type="Motherboard">
+                    <param id="0" name="Frame number">6</param>
+                </action>
+                <action id="-9" name="Destroy" sid="881577115495330" type="PowerSupply" />
+                <action id="-9" name="Destroy" sid="847934256935349" type="Signal2" />
+                <action id="-9" name="Destroy" sid="110270395840922" type="nomer5" />
+                <action id="-10" name="Add to" sid="114901340238328" type="System">
+                    <param id="0" name="Variable">step3</param>
+                    <param id="1" name="Value">-2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="649075693830333">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="131330247037478" type="Mouse2">
+                    <param id="0" name="Object">hdd</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="425561069979453" type="hdd">
+                    <param id="0" name="Width">131</param>
+                    <param id="1" name="Height">173</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="118506681078569">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="249842578399553" type="Mouse2">
+                    <param id="0" name="Object">hdd</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="526750555541258" type="hdd">
+                    <param id="0" name="Width">121</param>
+                    <param id="1" name="Height">163</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="460149897485021">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="128186052070628" type="hdd">
+                    <param id="0" name="Object">Signal3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="611129070702127" type="Audio">
+                    <param id="0" name="Audio file">blop</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="5" name="Set frame" sid="193304744455191" type="Motherboard">
+                    <param id="0" name="Frame number">7</param>
+                </action>
+                <action id="-10" name="Add to" sid="341856959702112" type="System">
+                    <param id="0" name="Variable">step3</param>
+                    <param id="1" name="Value">2</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="478763303488619">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="181230699155891" type="System">
+                            <param id="0" name="Variable">step3</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="546950816626933" type="ledakan">
+                            <param id="0" name="X">663</param>
+                            <param id="1" name="Y">337</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="309546084005353" type="ledakan">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-26" name="Restart layout" sid="813597692671999" type="System" />
+                        <action id="-21" name="Reset global variables" sid="506691591859077" type="System" />
+                    </actions>
+                </event-block>
+                <event-block sid="941518130499294">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="500234625088539" type="System">
+                            <param id="0" name="Variable">step3</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="320360143076104" type="hdd" />
+                        <action id="-9" name="Destroy" sid="657223019925525" type="Signal3" />
+                        <action id="-9" name="Destroy" sid="534249240970781" type="nomer6" />
+                        <action id="-3" name="Set position" sid="327089936492158" type="ButtonBack2">
+                            <param id="0" name="X">68</param>
+                            <param id="1" name="Y">65</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="139560209083245" type="System">
+                            <param id="0" name="Seconds">2.0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="695864359988321" type="System">
+                            <param id="0" name="Layer">&quot;popup4&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="429128511985183" type="pcDepan">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="136195413526413" type="System">
+                            <param id="0" name="Variable">Variable1</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="497389960660553" type="ButtonBack4">
+                            <param id="0" name="X">104</param>
+                            <param id="1" name="Y">663</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="998808282756572">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="838708562833418" type="Mouse2">
+                    <param id="0" name="Object">pcDepan</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="508377129382667" type="pcDepan">
+                    <param id="0" name="Width">195.559</param>
+                    <param id="1" name="Height">331.08</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="216695299490472">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="320349526135586" type="Mouse2">
+                    <param id="0" name="Object">pcDepan</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="165495339101880" type="pcDepan">
+                    <param id="0" name="Width">185.559</param>
+                    <param id="1" name="Height">321.08</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="576614669365612">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="231001087026582" type="Mouse2">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">pcDepan</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="996695470170311" type="System">
+                    <param id="0" name="Layer">&quot;popup4&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+                <action id="-3" name="Set position" sid="845829090025192" type="ButtonBack4">
+                    <param id="0" name="X">-112</param>
+                    <param id="1" name="Y">967</param>
+                </action>
+                <action id="0" name="Set cursor style" sid="777200478220768" type="Mouse2">
+                    <param id="0" name="Cursor style">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="948531736063167">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="416323692104154" type="Mouse2">
+                    <param id="0" name="Object">ButtonBack2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="818912970753607" type="ButtonBack2">
+                    <param id="0" name="Width">110</param>
+                    <param id="1" name="Height">110</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="247112951155981">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="190637430916261" type="Mouse2">
+                    <param id="0" name="Object">ButtonBack2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="900435538990743" type="ButtonBack2">
+                    <param id="0" name="Width">100</param>
+                    <param id="1" name="Height">100</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="415584519878911">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="937814240823991" type="Mouse2">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">ButtonBack2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="586027171854828" type="System">
+                    <param id="0" name="Layer">&quot;popup4&quot;</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+                <action id="-3" name="Set position" sid="201451118106269" type="ButtonBack4">
+                    <param id="0" name="X">104</param>
+                    <param id="1" name="Y">663</param>
+                </action>
+                <action id="0" name="Play" sid="939083531587239" type="Audio">
+                    <param id="0" name="Audio file">button on</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="862169392569928">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="934329047290125" type="System">
+                    <param id="0" name="Variable">Variable1</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="6" name="Play" sid="365964606574856" type="Video2" />
+                <action id="-9" name="Destroy" sid="121984433867590" type="layarDepan" />
+                <action id="-9" name="Destroy" sid="415367601585933" type="pcDepan" />
+                <action id="-15" name="Set visible" sid="494287714476069" type="pcDepan2">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="437845225237093" type="Keyboard3" />
+                <action id="-15" name="Set visible" sid="807552947722730" type="Keyboard4">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="650614351835312" type="mouse4" />
+                <action id="-15" name="Set visible" sid="366121596575531" type="mouse5">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="702664825117651" type="System">
+                    <param id="0" name="Seconds">9.0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="608309856386730" type="kata">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="395076930886271" type="System">
+                    <param id="0" name="Seconds">9.0</param>
+                </action>
+                <action id="-24" name="Stop loop" sid="601686255504390" type="System" />
+                <action id="-2" name="Go to layout" sid="168541586434350" type="System">
+                    <param id="0" name="Layout">Game</param>
+                </action>
+                <action id="-21" name="Reset global variables" sid="918900770642233" type="System" />
+                <action id="33" name="Stop all" sid="510037449334887" type="Audio" />
+                <action id="-9" name="Set value" sid="339157219591389" type="System">
+                    <param id="0" name="Variable">sound</param>
+                    <param id="1" name="Value">&quot;on&quot;</param>
+                </action>
+                <action id="0" name="Play" sid="589234143948211" type="Audio">
+                    <param id="0" name="Audio file">Backsound</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">-10</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

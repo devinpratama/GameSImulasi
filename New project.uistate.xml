@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout order="0">Logo</layout>
+        <layout order="1">Game</layout>
+        <layout active="1" order="2">Jaringan</layout>
+        <layout order="6">Menu</layout>
+        <layout order="8">Rakit pc</layout>
+        <layout order="9">Quis</layout>
+        <event-sheet order="3">Jaringan</event-sheet>
+        <event-sheet order="4">Rakit Pc</event-sheet>
+        <event-sheet order="5">game</event-sheet>
+        <event-sheet order="7">Quis</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="0" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1" />
+    <folders-expanded>
+        <folder expanded="1" path="object-folder/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="1" path="file-folder/" />
+        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/keyboard/" />
+        <folder expanded="1" path="animation-folder/komputer/" />
+        <folder expanded="1" path="animation-folder/layar2/" />
+        <folder expanded="1" path="animation-folder/mouse/" />
+        <folder expanded="1" path="animation-folder/loding/" />
+        <folder expanded="1" path="animation-folder/loding2/" />
+        <folder expanded="1" path="animation-folder/paku/" />
+        <folder expanded="1" path="animation-folder/tang/" />
+        <folder expanded="1" path="animation-folder/meja/" />
+        <folder expanded="1" path="animation-folder/komputer2/" />
+        <folder expanded="1" path="animation-folder/Layar3/" />
+        <folder expanded="1" path="animation-folder/Mouse3/" />
+        <folder expanded="1" path="animation-folder/Keyboard2/" />
+        <folder expanded="1" path="animation-folder/obeng/" />
+        <folder expanded="1" path="animation-folder/tulKomputer/" />
+        <folder expanded="1" path="animation-folder/jaringan/" />
+        <folder expanded="1" path="animation-folder/simulasi/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/Sprite3/" />
+        <folder expanded="1" path="animation-folder/hub/" />
+        <folder expanded="1" path="animation-folder/vaase/" />
+        <folder expanded="1" path="animation-folder/usb/" />
+        <folder expanded="1" path="animation-folder/door/" />
+        <folder expanded="1" path="animation-folder/Sprite4/" />
+        <folder expanded="1" path="animation-folder/Background/" />
+        <folder expanded="1" path="animation-folder/backTembok/" />
+        <folder expanded="1" path="animation-folder/gold/" />
+        <folder expanded="1" path="animation-folder/buttonClose/" />
+        <folder expanded="1" path="animation-folder/Sprite5/" />
+        <folder expanded="1" path="animation-folder/gold2/" />
+        <folder expanded="1" path="animation-folder/gold3/" />
+        <folder expanded="1" path="animation-folder/gold4/" />
+        <folder expanded="1" path="animation-folder/kataLab2/" />
+        <folder expanded="1" path="animation-folder/Sprite6/" />
+        <folder expanded="1" path="animation-folder/popupLab/" />
+        <folder expanded="1" path="animation-folder/robot2/" />
+        <folder expanded="1" path="animation-folder/robot3/" />
+        <folder expanded="1" path="animation-folder/popupLab2/" />
+        <folder expanded="1" path="animation-folder/Sprite7/" />
+        <folder expanded="1" path="animation-folder/Sprite8/" />
+        <folder expanded="1" path="animation-folder/buttonStart2/" />
+        <folder expanded="1" path="animation-folder/backRakit/" />
+        <folder expanded="1" path="animation-folder/besi/" />
+        <folder expanded="1" path="animation-folder/besi2/" />
+        <folder expanded="1" path="animation-folder/hub2/" />
+        <folder expanded="1" path="animation-folder/pcDepan/" />
+        <folder expanded="1" path="animation-folder/layarDepan/" />
+        <folder expanded="1" path="animation-folder/Keyboard3/" />
+        <folder expanded="1" path="animation-folder/mouse4/" />
+        <folder expanded="1" path="animation-folder/plug/" />
+        <folder expanded="1" path="animation-folder/backNyolok/" />
+        <folder expanded="1" path="animation-folder/plug2/" />
+        <folder expanded="1" path="animation-folder/plug3/" />
+        <folder expanded="1" path="animation-folder/ButtonBack2/" />
+        <folder expanded="1" path="animation-folder/metal/" />
+        <folder expanded="1" path="animation-folder/keybaordPort/" />
+        <folder expanded="1" path="animation-folder/panel/" />
+        <folder expanded="1" path="animation-folder/keyboardColok/" />
+        <folder expanded="1" path="animation-folder/metal2/" />
+        <folder expanded="1" path="animation-folder/keybaordPort2/" />
+        <folder expanded="1" path="animation-folder/panel2/" />
+        <folder expanded="1" path="animation-folder/keyboardColok2/" />
+        <folder expanded="1" path="animation-folder/popupCpu/" />
+        <folder expanded="1" path="animation-folder/hdd/" />
+        <folder expanded="1" path="animation-folder/PowerSupply/" />
+        <folder expanded="1" path="animation-folder/Processor/" />
+        <folder expanded="1" path="animation-folder/RAM/" />
+        <folder expanded="1" path="animation-folder/Heatsink/" />
+        <folder expanded="1" path="animation-folder/Motherboard/" />
+        <folder expanded="1" path="animation-folder/lanCard/" />
+        <folder expanded="1" path="animation-folder/Signal/" />
+        <folder expanded="1" path="animation-folder/signal4/" />
+        <folder expanded="1" path="animation-folder/nomer/" />
+        <folder expanded="1" path="animation-folder/nomer2/" />
+        <folder expanded="1" path="animation-folder/nomer3/" />
+        <folder expanded="1" path="animation-folder/nomer4/" />
+        <folder expanded="1" path="animation-folder/ledakan/" />
+        <folder expanded="1" path="animation-folder/signal5/" />
+        <folder expanded="1" path="animation-folder/Signal2/" />
+        <folder expanded="1" path="animation-folder/Signal3/" />
+        <folder expanded="1" path="animation-folder/nomer5/" />
+        <folder expanded="1" path="animation-folder/nomer6/" />
+        <folder expanded="1" path="animation-folder/labKata2/" />
+        <folder expanded="1" path="animation-folder/backJaringan/" />
+        <folder expanded="1" path="animation-folder/mejajar/" />
+        <folder expanded="1" path="animation-folder/ruang4/" />
+        <folder expanded="1" path="animation-folder/modem/" />
+        <folder expanded="1" path="animation-folder/headtset/" />
+        <folder expanded="1" path="animation-folder/ButtonBack4/" />
+        <folder expanded="1" path="animation-folder/laptop/" />
+        <folder expanded="1" path="animation-folder/antena/" />
+        <folder expanded="1" path="animation-folder/layarproyektor/" />
+        <folder expanded="1" path="animation-folder/rj/" />
+        <folder expanded="1" path="animation-folder/tangrj/" />
+        <folder expanded="1" path="animation-folder/popupback/" />
+        <folder expanded="1" path="animation-folder/clue/" />
+        <folder expanded="1" path="animation-folder/clue2/" />
+        <folder expanded="1" path="animation-folder/kabel/" />
+        <folder expanded="1" path="animation-folder/kabel2/" />
+        <folder expanded="1" path="animation-folder/kabel3/" />
+        <folder expanded="1" path="animation-folder/kabel4/" />
+        <folder expanded="1" path="animation-folder/kabel5/" />
+        <folder expanded="1" path="animation-folder/kabel6/" />
+        <folder expanded="1" path="animation-folder/kabel7/" />
+        <folder expanded="1" path="animation-folder/kabel8/" />
+        <folder expanded="1" path="animation-folder/SignalRj/" />
+        <folder expanded="1" path="animation-folder/SignalRj2/" />
+        <folder expanded="1" path="animation-folder/SignalRj3/" />
+        <folder expanded="1" path="animation-folder/SignalRj4/" />
+        <folder expanded="1" path="animation-folder/SignalRj5/" />
+        <folder expanded="1" path="animation-folder/SignalRj6/" />
+        <folder expanded="1" path="animation-folder/SignalRj7/" />
+        <folder expanded="1" path="animation-folder/SignalRj8/" />
+        <folder expanded="1" path="animation-folder/tang2/" />
+        <folder expanded="1" path="animation-folder/rj3/" />
+        <folder expanded="1" path="animation-folder/kabel9/" />
+        <folder expanded="1" path="animation-folder/kabel10/" />
+        <folder expanded="1" path="animation-folder/kabel11/" />
+        <folder expanded="1" path="animation-folder/kabel12/" />
+        <folder expanded="1" path="animation-folder/kabel13/" />
+        <folder expanded="1" path="animation-folder/kabel14/" />
+        <folder expanded="1" path="animation-folder/kabel15/" />
+        <folder expanded="1" path="animation-folder/kabel16/" />
+        <folder expanded="1" path="animation-folder/SignalRj9/" />
+        <folder expanded="1" path="animation-folder/SignalRj10/" />
+        <folder expanded="1" path="animation-folder/SignalRj11/" />
+        <folder expanded="1" path="animation-folder/SignalRj12/" />
+        <folder expanded="1" path="animation-folder/SignalRj13/" />
+        <folder expanded="1" path="animation-folder/SignalRj14/" />
+        <folder expanded="1" path="animation-folder/SignalRj15/" />
+        <folder expanded="1" path="animation-folder/SignalRj16/" />
+        <folder expanded="1" path="animation-folder/tang3/" />
+        <folder expanded="1" path="animation-folder/gear/" />
+        <folder expanded="1" path="animation-folder/gear2/" />
+        <folder expanded="1" path="animation-folder/Signal6/" />
+        <folder expanded="1" path="animation-folder/Signal7/" />
+        <folder expanded="1" path="animation-folder/backHub/" />
+        <folder expanded="1" path="animation-folder/colokanRJ/" />
+        <folder expanded="1" path="animation-folder/colokanRJ2/" />
+        <folder expanded="1" path="animation-folder/rj45jadi/" />
+        <folder expanded="1" path="animation-folder/signalColokanRj/" />
+        <folder expanded="1" path="animation-folder/ButtonBack6/" />
+        <folder expanded="1" path="animation-folder/RakBuku2/" />
+        <folder expanded="1" path="animation-folder/robot4/" />
+        <folder expanded="1" path="animation-folder/door2/" />
+        <folder expanded="1" path="animation-folder/TeksQuis/" />
+        <folder expanded="1" path="animation-folder/PapanQuis/" />
+        <folder expanded="1" path="animation-folder/kata/" />
+        <folder expanded="1" path="animation-folder/pcDepan2/" />
+        <folder expanded="1" path="animation-folder/layarDepan2/" />
+        <folder expanded="1" path="animation-folder/Keyboard4/" />
+        <folder expanded="1" path="animation-folder/mouse5/" />
+    </folders-expanded>
+</c2uistate>

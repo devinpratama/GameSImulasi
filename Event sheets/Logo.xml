@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Logo</name>
+    <events>
+        <variable constant="0" name="sound" sid="514191921500125" static="0" type="text">on</variable>
+        <event-block sid="881460537763436">
+            <conditions>
+                <condition id="-9" name="Is visible" sid="836787499631615" type="jadi" />
+            </conditions>
+            <actions>
+                <action id="6" name="Play" sid="494371090303586" type="jadi" />
+                <action id="-16" name="Wait" sid="333753493626685" type="System">
+                    <param id="0" name="Seconds">6.00</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="181286920999222" type="System">
+                    <param id="0" name="Layout">loading</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="424944289393606">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="869190547268488" type="System">
+                            <param id="0" name="Variable">sound</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;on&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="644342772511788" type="Audio">
+                            <param id="0" name="Audio file">Backsound</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">-10</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="413786066881035">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="506381639876933" type="System">
+                                    <param id="0" name="Variable">sound</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;off&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Play" sid="874799414814605" type="Audio">
+                                    <param id="0" name="Audio file">Backsound</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">-100</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>

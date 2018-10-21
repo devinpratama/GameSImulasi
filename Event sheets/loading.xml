@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>loading</name>
+    <events>
+        <event-block sid="548735270999306">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="537502683162196" type="System" />
+            </conditions>
+            <actions>
+                <action id="-5" name="Set width" sid="555912002900463" type="loding2">
+                    <param id="0" name="Width">100</param>
+                </action>
+                <action id="-5" name="Set width" sid="718878169281394" type="loding2">
+                    <param id="0" name="Width">300</param>
+                </action>
+                <action id="-16" name="Wait" sid="854345693991673" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-5" name="Set width" sid="589197421645002" type="loding2">
+                    <param id="0" name="Width">600</param>
+                </action>
+                <action id="-16" name="Wait" sid="193088322554825" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-5" name="Set width" sid="760700607990261" type="loding2">
+                    <param id="0" name="Width">800</param>
+                </action>
+                <action id="-16" name="Wait" sid="842342959398211" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-5" name="Set width" sid="746078656663156" type="loding2">
+                    <param id="0" name="Width">1010.179</param>
+                </action>
+                <action id="-16" name="Wait" sid="130581929322823" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="747787167599589" type="System">
+                    <param id="0" name="Layout">Menu</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
